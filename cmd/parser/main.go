@@ -9,7 +9,6 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"github.com/rs/zerolog/pkgerrors"
-	"github.com/spf13/viper"
 	"os"
 	"path/filepath"
 	"rig-calculation/internal/config"
@@ -104,8 +103,6 @@ func initConfig(configOrigin *string) (*config.Config, error) {
 
 	var cfg *config.Config
 	var err error
-
-	viper.AutomaticEnv()
 
 	switch *configOrigin {
 	case "file":
