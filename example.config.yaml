@@ -1,0 +1,14 @@
+app:
+  log_level: -1
+  log_color_enabled: true
+  log_trace_enabled: false
+  instance_name: hive-api-parser
+  instance_label: dev
+  telemetry:
+    enabled: false
+    nr_name: hive-api-parser
+    nr_key: YourNewrelicKey
+    debug_enabled: false
+hive:
+  api_url: https://api2.hiveos.farm/api/v2
+  api_key: GENERATE-API-KEY

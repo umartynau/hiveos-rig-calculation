@@ -1,0 +1,31 @@
+.DS_Store
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+install_manifest.txt
+*.cmake
+
+# Object files
+*.a
+*.so
+*.dylib
+
+package-lock.json
+
+# Configs
+config*.json
+!config.example.json
+
+/build/_workspace/
+/build/bin/
+
+/output
+
+.idea
+
+*config.yaml
+!example.config.yaml
+.env
+*_bench.log
